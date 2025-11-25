@@ -1,0 +1,25 @@
+# Claude Code settings
+.claude/settings.local.json
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+
+# Dependencies (si agregas npm en el futuro)
+node_modules/
+
+# Build files (si usas build tools)
+dist/
+build/

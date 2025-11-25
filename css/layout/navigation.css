@@ -65,7 +65,17 @@ nav .container {
 
 /* Responsive */
 @media (max-width: 968px) {
+    nav .container {
+        padding: 2rem 1.5rem;
+    }
+
     .nav-links {
         display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    nav .container {
+        padding: 1.8rem 1rem;
     }
 }
