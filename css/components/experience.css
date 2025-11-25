@@ -1,0 +1,76 @@
+/* ===================================
+   Experience Section
+   =================================== */
+
+.experience-timeline {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.experience-item {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--primary);
+    border-radius: 12px;
+    padding: 2.5rem;
+    margin-bottom: 2rem;
+    transition: all 0.3s ease;
+}
+
+.experience-item:hover {
+    transform: translateX(10px);
+    box-shadow: 0 15px 40px rgba(0, 217, 255, 0.15);
+}
+
+.experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 1.5rem;
+}
+
+.experience-role {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+}
+
+.experience-company {
+    font-size: 1.1rem;
+    color: rgba(232, 244, 248, 0.7);
+}
+
+.experience-date {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.9rem;
+    color: var(--accent);
+    background: rgba(255, 51, 102, 0.1);
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+}
+
+.experience-description {
+    color: rgba(232, 244, 248, 0.7);
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+.experience-highlights {
+    list-style: none;
+}
+
+.experience-highlights li {
+    padding: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+    color: rgba(232, 244, 248, 0.7);
+}
+
+.experience-highlights li::before {
+    content: '▹';
+    position: absolute;
+    left: 0;
+    color: var(--primary);
+    font-weight: bold;
+}

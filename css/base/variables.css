@@ -1,0 +1,22 @@
+/* ===================================
+   Variables CSS
+   Colores, fuentes y valores globales
+   =================================== */
+
+:root {
+    /* Colores principales */
+    --primary: #00D9FF;
+    --secondary: #0A1F44;
+    --accent: #FF3366;
+
+    /* Colores de texto */
+    --text-light: #E8F4F8;
+    --text-dark: #1A1A2E;
+
+    /* Colores de fondo */
+    --bg-dark: #0F172A;
+    --bg-card: #1E293B;
+
+    /* Bordes */
+    --border: rgba(0, 217, 255, 0.2);
+}
