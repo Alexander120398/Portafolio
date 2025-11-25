@@ -6,7 +6,7 @@
     min-height: 100vh;
     display: flex;
     align-items: center;
-    padding-top: 80px;
+    padding-top: 140px;
     position: relative;
 }
 
@@ -149,11 +149,21 @@ h1 {
 
 /* Responsive */
 @media (max-width: 968px) {
+    .hero {
+        padding-top: 120px;
+    }
+
     .hero-content {
         grid-template-columns: 1fr;
     }
 
     h1 {
         font-size: 3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        padding-top: 100px;
     }
 }
